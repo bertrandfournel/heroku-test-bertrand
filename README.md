@@ -29,7 +29,7 @@ cd heroku-test-bertrand
 ```
 
 ```bash
-git remote add origin https://github.com/votre-nom-utilisateur/nom-du-nouveau-repo.git
+git remote set-url origin https://github.com/votre-nom-utilisateur/nom-du-nouveau-repo.git
 ```
 
 6. Optionnel : La version Python est 3.11.3, installez un environnement virtuel avec venv (dans le dossier parent) : 
@@ -83,7 +83,7 @@ git commit -m "first deploy"
 ```
 
 ```bash
-git push origin main
+git push -u origin main
 ```
 
 Les modifications sont en ligne quelques minutes après, pour les voir, cliquez sur "Open app" dans votre dahsboard Heroku
