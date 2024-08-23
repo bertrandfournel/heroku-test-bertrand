@@ -28,6 +28,8 @@ git clone https://github.com/bertrandfournel/heroku-test-bertrand.git
 cd heroku-test-bertrand
 ```
 
+
+* remplacez "https://github.com/votre-nom-utilisateur/nom-du-nouveau-repo.git" par l'url de votre nouveau repo :
 ```bash
 git remote set-url origin https://github.com/votre-nom-utilisateur/nom-du-nouveau-repo.git
 ```
