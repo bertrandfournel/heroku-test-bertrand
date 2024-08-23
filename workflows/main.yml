@@ -20,7 +20,7 @@ jobs:
         heroku_email: ${{secrets.HEROKU_EMAIL}}
         heroku_api_key: ${{secrets.HEROKU_API_KEY}}
         heroku_app_name: "heroku-test-app-bertrand"
-        appdir: "application"
+        appdir: "."
 
     - name: Set up Python
       uses: actions/setup-python@v4
@@ -29,7 +29,6 @@ jobs:
         
     - name: Install dependencies and Deploy to Heroku
       run: |
-        cd application
         python -m pip install --upgrade pip
         pip install -r requirements.txt
         git push heroku HEAD:main
