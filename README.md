@@ -38,7 +38,7 @@ git remote add origin https://github.com/votre-nom-utilisateur/nom-du-nouveau-re
 python -m venv ../env
 ```
 
-3. Optionnel : Activez l'environnement (pour Linux et MacOS): 
+7. Optionnel : Activez l'environnement (pour Linux et MacOS): 
 
 ```bash
 . ../env/bin/activate
@@ -62,7 +62,7 @@ Pour créer une application sur Heroku, suivez les étapes suivantes :
 2. Choisissez le Buildpack Python dans les settings de l'application
 3. Dans Automatic deploys de l'onglet Deploy, cliquez sur Enable "Automatic Deploys"
 
-## Étape 3 : Configurer le déploiement depuis Github
+## Étape 4 : Configurer le déploiement depuis Github
 
 1. Dans le fichier workflows/main.yml, modifiez "heroku_app_name" par le nom de votre application Heroku, pushez les modifications
 2. Allez dans les Settings de votre repo Github, puis "Secrets and variables" et "Actions" et rajouter deux repository secrets :
@@ -70,7 +70,7 @@ Pour créer une application sur Heroku, suivez les étapes suivantes :
     * HEROKU_EMAIL l'email qui vous avez renseigné pour créer votre compte Heroku
 
 
-## Étape 4 : Déployez :
+## Étape 5 : Déployez :
 
 1. Faites les modifications sur le fichier app.py pour mettre en forme votre application. Pushez cette nouvelle version sur votre compte personnel github.
 
