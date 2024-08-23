@@ -22,7 +22,7 @@ git clone https://github.com/bertrandfournel/heroku-test-bertrand.git
 2.	Connectez-vous à votre compte GitHub.
 3.	Créez un nouveau dépôt en cliquant sur le bouton “New repository”.
 4.	Donnez un nom à votre nouveau dépôt et configurez les autres options selon vos besoins.
-5.	Ne cochez pas l’option “Initialize this repository with a README”, car vous allez pousser un dépôt existant.
+5.	Ne cochez pas l’option “Initialize this repository with a README”
 
 ```bash
 cd heroku-test-bertrand
